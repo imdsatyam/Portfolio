@@ -11,18 +11,21 @@ const Menu = [
     image: Work1,
     title: "Portfolio",
     category: "Creative",
+    work: "https://kumar-satyam-portfolio.netlify.app/",
   },
   {
     id: 2,
     image: Work2,
     title: "Tech Mahindra Foundation",
     category: "Creative",
+    work: "https://techmahindrafoundation.netlify.app/",
   },
   {
     id: 3,
     image: Work3,
     title: "ReUnion",
     category: "Design",
+    work: "https://reunion-website.netlify.app/",
   },
   ,
   {
@@ -30,6 +33,7 @@ const Menu = [
     image: Work4,
     title: "PcHelp",
     category: "Design",
+    work: "https://pchelpsolution.netlify.app/",
   },
   ,
   {
@@ -37,6 +41,7 @@ const Menu = [
     image: Work5,
     title: "Data Science",
     category: "Art",
+    work: "https://github.com/imdsatyam/GRIP-Internship-Tasks"
   },
   ,
   {

@@ -2,7 +2,7 @@ const HeaderSocials = () => {
   return (
     <div className="home__socials">
       <a
-        href="https://www.instgram.com/"
+        href="https://www.linkedin.com/in/imdsatyam"
         className="home__social-link"
         target="_blank"
         rel="noreferrer"
@@ -10,7 +10,7 @@ const HeaderSocials = () => {
         <i className="fa-brands fa-linkedin-in"></i>
       </a>
       <a
-        href="https://www.github.com/"
+        href="https://github.com/imdsatyam"
         className="home__social-link"
         target="_blank"
         rel="noreferrer"
@@ -18,7 +18,7 @@ const HeaderSocials = () => {
         <i className="fa-brands fa-github"></i>
       </a>
       <a
-        href="https://www.twitter.com/"
+        href="https://twitter.com/imdsatyam?t=6fDY5VKqJHJV7J5OTaXYcA&s=09"
         className="home__social-link"
         target="_blank"
         rel="noreferrer"
@@ -26,7 +26,7 @@ const HeaderSocials = () => {
         <i className="fa-brands fa-twitter"></i>
       </a>
       <a
-        href="https://www.instgram.com/"
+        href="https://instagram.com/imdsatyam?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"
         className="home__social-link"
         target="_blank"
         rel="noreferrer"
@@ -34,7 +34,7 @@ const HeaderSocials = () => {
         <i className="fa-brands fa-instagram"></i>
       </a>
       <a
-        href="https://www.wa.me/"
+        href="https://wa.me/7739430032"
         className="home__social-link"
         target="_blank"
         rel="noreferrer"
