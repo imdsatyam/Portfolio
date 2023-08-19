@@ -11,10 +11,10 @@ const Blog = () => {
       <div className="blog__container grid">
         <div className="blog__card">
           <div className="blog__thumb">
-            <a href="">
+            <a href="/#">
               <span className="blog__category">Reviews</span>
             </a>
-            <a href="">
+            <a href="/#">
               <img src={Image1} alt="" className="blog__img"></img>
             </a>
           </div>
@@ -29,10 +29,10 @@ const Blog = () => {
         </div>
         <div className="blog__card">
           <div className="blog__thumb">
-            <a href="">
+            <a href="/#">
               <span className="blog__category">Tutorial</span>
             </a>
-            <a href="">
+            <a href="/#">
               <img src={Image2} alt="" className="blog__img"></img>
             </a>
           </div>
@@ -47,10 +47,10 @@ const Blog = () => {
         </div>
         <div className="blog__card">
           <div className="blog__thumb">
-            <a href="">
+            <a href="/#">
               <span className="blog__category">Business</span>
             </a>
-            <a href="">
+            <a href="/#">
               <img src={Image3} alt="" className="blog__img"></img>
             </a>
           </div>

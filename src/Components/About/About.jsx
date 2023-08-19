@@ -16,7 +16,8 @@ const About = () => {
               knowledge in website design and building and customization, also I
               am good at React.
             </p>
-            <a href="https://drive.google.com/file/d/1UVaSA0INQxyVDljy5rgRXkKUuoFxUpNV/view?usp=sharing" className="btn">
+            <a href="https://drive.google.com/file/d/1Sp6B4AmrT6lUTwFe5a2iLXME2zCPHfR9/view?usp=sharing" className="btn" target="_blank"
+        rel="noreferrer">
               Download CV
             </a>
           </div>

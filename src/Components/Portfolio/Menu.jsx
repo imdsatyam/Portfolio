@@ -23,19 +23,17 @@ const Menu = [
   {
     id: 3,
     image: Work3,
+    title: "Confederation Of Global Innovators",
+    category: "Design",
+    work: "https://cgi-web.netlify.app/",
+  },
+  {
+    id: 4,
+    image: Work4,
     title: "ReUnion",
     category: "Design",
     work: "https://reunion-website.netlify.app/",
   },
-  ,
-  {
-    id: 4,
-    image: Work4,
-    title: "PcHelp",
-    category: "Design",
-    work: "https://pchelpsolution.netlify.app/",
-  },
-  ,
   {
     id: 5,
     image: Work5,
@@ -43,7 +41,6 @@ const Menu = [
     category: "Art",
     work: "https://github.com/imdsatyam/GRIP-Internship-Tasks"
   },
-  ,
   {
     id: 6,
     image: Work6,
