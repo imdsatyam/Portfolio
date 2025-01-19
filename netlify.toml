@@ -1,0 +1,4 @@
+[build]
+  base = "Portfolio-Frontend"  # Set the base directory for the frontend
+  publish = "Portfolio-Frontend/build"  # The directory to deploy after building the frontend
+  command = "npm run build"  # Command to run the build
