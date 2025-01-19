@@ -1,0 +1,129 @@
+.blog__container {
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 1.875rem;
+}
+
+.blog__card {
+  box-shadow: var(--shadow);
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+}
+
+.blog__thumb {
+  position: relative;
+  overflow: hidden;
+}
+
+.blog__img {
+  transform: scale(1);
+  transition: 0.3s;
+}
+
+.blog__thumb:hover .blog__img {
+  transform: scale(1.1);
+}
+
+.blog__category {
+  color: #fff;
+  background-color: var(--first-color);
+  border-radius: 0.9375rem;
+  position: absolute;
+  top: 0;
+  left: 1.25rem;
+  font-size: var(--small-font-size);
+  padding: 0.125rem 0.5rem;
+  transition: 0.3s;
+  z-index: 1;
+}
+
+.blog__details {
+  background-color: var(--container-color);
+  padding: 1.25rem;
+}
+
+.blog__title {
+  font-size: var(--h3-font-size);
+  margin-bottom: 0.5rem;
+}
+
+.blog__meta {
+  display: flex;
+  column-gap: 0.6rem;
+  font-size: var(--small-font-size);
+  color: #8b88b1;
+}
+
+.blog__dot {
+  font-weight: var(--font-bold);
+}
+
+.blog__content-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 20px;
+}
+
+.modal-body img {
+  max-width: 80%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 600px;
+  width: 100%;
+  position: relative;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+}
+
+.modal-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.modal-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0.3rem 0.8rem;
+}
+
+.modal-category {
+  background-color: var(--first-color);
+  color: #fff;
+  padding: 0.3rem 0.8rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  width: 6rem;
+}
