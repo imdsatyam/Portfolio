@@ -2,7 +2,6 @@ const express = require('express');
 const mongoose = require('mongoose');
 const portfolioRoutes = require('./routes/portfolioRoutes');
 const bodyParser = require('body-parser');
-require('dotenv').config();
 const cors = require('cors');
 
 const app = express();
