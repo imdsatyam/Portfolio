@@ -63,15 +63,15 @@ This starts the development server for the frontend.
 ## Environment Variables
 Create .env files for both frontend and backend as needed.
 
-###Example for the backend:
+### Example for the backend:
 - PORT=5000
 - DB_URI=mongodb://localhost:27017/portfolio
 - JWT_SECRET=your-secret-key
 - Ensure to update these values based on your local or production environment.
 
-##Usage
+## Usage
 1. Open the frontend in your browser at http://localhost:3000 (default port).
 2. The backend runs at http://localhost:5000 (or the port specified in .env).
 
-##License
+## License
 This project is licensed under the MIT License.
