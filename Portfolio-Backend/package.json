@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node Index",
+    "start": "node Index.js",
     "dev": "nodemon index.js"
   },
   "author": "",
