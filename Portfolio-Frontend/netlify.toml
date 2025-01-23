@@ -1,4 +1,0 @@
-[build]
-  base = "Portfolio-Frontend"  # Build from the Portfolio-Frontend folder
-  publish = "build"  # The output folder from the build command
-  command = "npm run build"  # Run npm build to create the production files
