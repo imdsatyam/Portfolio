@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node Index",
+    "start": "node index",
     "dev": "nodemon index.js",
     "build": "cross-env NODE_ENV=production && echo 'Build completed!'"
   },
