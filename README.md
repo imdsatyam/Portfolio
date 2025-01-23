@@ -7,7 +7,6 @@ Welcome to the **Portfolio** project! This repository contains the source code f
 - [Technologies Used](#technologies-used)
 - [Setup Instructions](#setup-instructions)
 - [Usage](#usage)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## About the Project
