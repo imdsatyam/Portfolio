@@ -20,7 +20,7 @@ const About = () => {
               ensuring seamless and impactful digital solutions.
             </p>
             <a
-              href="https://drive.google.com/file/d/1BfCJRMAIgKfQ-spispLIVS02MqRK5nkl/view?usp=sharing"
+              href="https://drive.google.com/file/d/1HAwxxdIYgK1UfJCEfwhT37F5qm4XixN1/view?usp=drivesdk"
               className="btn"
               target="_blank"
               rel="noreferrer"
