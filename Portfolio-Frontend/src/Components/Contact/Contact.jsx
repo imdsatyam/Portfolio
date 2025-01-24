@@ -90,7 +90,11 @@ const Contact = () => {
             ></textarea>
           </div>
           <button className="btn" type="submit" disabled={loading}>
-            {loading ? 'Sending...' : 'Send Message'}
+            {loading ? (
+              <div className="loader"></div>
+            ) : (
+              'Send Message'
+            )}
           </button>
         </form>
       </div>
