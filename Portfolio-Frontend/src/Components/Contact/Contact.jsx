@@ -1,9 +1,24 @@
 import React, { useRef, useState } from 'react';
+import AlertToaster from '../../Custom/AlertToaster';
 import "./Contact.css";
 
-const Contact = () => {
+const Contact = ({ setLoading }) => {
   const form = useRef();
-  const [loading, setLoading] = useState(false);
+  const [alertState, setalertState] = useState(true);
+
+  const staticAlertTimer = (text, type) => {
+    if (alertState === true) {
+      if (type === 'success') {
+        AlertToaster.success(text);
+      } else if (type === 'warn') {
+        AlertToaster.warn(text);
+      } else if (type === 'error') {
+        AlertToaster.error(text);
+      }
+      setalertState(false);
+      setTimeout(() => setalertState(true), 5000);
+    }
+  };
 
   const sendEmail = async (e) => {
     e.preventDefault();
@@ -25,15 +40,15 @@ const Contact = () => {
       });
 
       if (response.ok) {
-        alert('Message sent successfully!');
+        staticAlertTimer('Message sent successfully!', 'success');
         form.current.reset();
       } else {
         const errorData = await response.json();
-        alert(`Failed to send message: ${errorData.error}`);
+        staticAlertTimer(`Failed to send message: ${errorData.error}`, 'error');
       }
     } catch (error) {
       console.error('Error sending message:', error);
-      alert('Error sending message.');
+      staticAlertTimer('Error sending message.', 'error');
     } finally {
       setLoading(false);
     }
@@ -89,12 +104,8 @@ const Contact = () => {
               required
             ></textarea>
           </div>
-          <button className="btn" type="submit" disabled={loading}>
-            {loading ? (
-              <div className="loader"></div>
-            ) : (
-              'Send Message'
-            )}
+          <button className="btn" type="submit" disabled={setLoading}>
+            Send Message
           </button>
         </form>
       </div>
